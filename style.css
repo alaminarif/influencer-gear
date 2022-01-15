@@ -12,7 +12,6 @@ body {
   box-sizing: border-box;
   outline: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #f3f1ff;
 }
 a {
   text-decoration: none;
@@ -84,8 +83,7 @@ header {
   color: #fff;
   margin: 0 8px;
 }
-.banner-right {
-}
+
 /* -------------------
 main Section Style 
   -------------------*/
@@ -147,10 +145,10 @@ main Section Style
   background-color: transparent;
   color: #e02c6d;
 }
-.seemore {
+/* .seemore {
   display: flex;
   justify-content: end;
-}
+} */
 /* -------------------
 main Section Style 
   -------------------*/
@@ -158,19 +156,19 @@ main Section Style
 /* -------------------
 Footer Section Style 
   -------------------*/
-.footer {
+.Footer {
   margin-top: 100px;
   background-color: #000;
   text-align: center;
   padding: 50px 0;
 }
-.footer h1 {
+.Footer h1 {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
   margin: 0;
 }
-.footer p {
+.Footer p {
   color: #d9dbe1;
   font-size: 14px;
   font-weight: 700;
@@ -186,6 +184,9 @@ main Section Style
   -------------------*/
 
 @media (max-width: 992px) {
+  header {
+    height: fit-content;
+  }
   .header-right {
     display: none;
   }
