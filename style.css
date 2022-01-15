@@ -16,6 +16,9 @@ body {
 a {
   text-decoration: none;
 }
+img {
+  width: 100%;
+}
 .primary-btn {
   border: 0;
   color: white;
@@ -113,7 +116,9 @@ main Section Style
 .card:hover {
   border: 2px solid #787885;
 }
-
+.card-img {
+  width: 300px;
+}
 .card h2 {
   font-size: 28px;
   font-weight: 500;
@@ -145,10 +150,12 @@ main Section Style
   background-color: transparent;
   color: #e02c6d;
 }
-/* .seemore {
+
+.seemore {
   display: flex;
   justify-content: end;
-} */
+}
+
 /* -------------------
 main Section Style 
   -------------------*/
@@ -156,7 +163,10 @@ main Section Style
 /* -------------------
 Footer Section Style 
   -------------------*/
-.Footer {
+footer {
+  background-color: tomato;
+}
+footer {
   margin-top: 100px;
   background-color: #000;
   text-align: center;
