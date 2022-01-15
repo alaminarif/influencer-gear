@@ -116,9 +116,7 @@ main Section Style
 .card:hover {
   border: 2px solid #787885;
 }
-.card-img {
-  width: 300px;
-}
+
 .card h2 {
   font-size: 28px;
   font-weight: 500;
