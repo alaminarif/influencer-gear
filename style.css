@@ -184,19 +184,12 @@ Footer Section Style
 /* -------------------
 main Section Style 
   -------------------*/
-@media (max-width: 688px) {
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
+
 @media (max-width: 992px) {
   .header-right {
     display: none;
   }
-  .container {
-    width: 100%;
-  }
+
   .navigation {
     justify-content: center;
   }
@@ -211,5 +204,11 @@ main Section Style
   }
   .card-img {
     width: 100%;
+  }
+}
+@media (max-width: 688px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
