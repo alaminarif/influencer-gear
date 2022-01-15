@@ -161,22 +161,21 @@ main Section Style
 /* -------------------
 Footer Section Style 
   -------------------*/
-footer {
-  background-color: tomato;
-}
-footer {
+
+.Footer-section {
   margin-top: 100px;
   background-color: #000;
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
+  display: inline;
 }
-.Footer h1 {
+.Footer-section h1 {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
-  margin: 0;
+  margin: 0 10px;
 }
-.Footer p {
+.Footer-section p {
   color: #d9dbe1;
   font-size: 14px;
   font-weight: 700;
@@ -185,13 +184,21 @@ footer {
 .social-link .fab {
   color: #d9dbe1;
   font-size: 31px;
-  margin: 16px;
+  margin: 16px 0 0 16px;
+}
+.last {
+  background-color: tomato;
 }
 /* -------------------
 main Section Style 
   -------------------*/
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 688px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
   header {
     height: fit-content;
   }
@@ -210,14 +217,5 @@ main Section Style
   }
   .cards {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .card-img {
-    width: 100%;
-  }
-}
-@media (max-width: 688px) {
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
   }
 }
